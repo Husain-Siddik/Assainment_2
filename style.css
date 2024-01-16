@@ -138,18 +138,63 @@ form>select,
 }
 
 
-.second,.third,.first {
+.second,
+.third,
+.first {
     display: flex;
     gap: 20px;
     margin-top: 20px;
 }
 
-
-
-
 /* destenitation container end */
 
+/* card start  */
 
+.card-demo {
+    display: flex;
+    max-width: 1200px;
+    margin-left:110px ;
+    justify-content: center;
+}
+
+.card {
+    width: 35rem;
+    height: 17.5rem;
+    padding: 20px;
+    margin-top: 2rem;
+    
+}
+
+
+ .another {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05);
+}
+
+.card h1 {
+    font-size: 24px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.farther{
+    width: 480px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 500px;
+    background-color: rgb(214, 159, 168);
+}
+
+/* .next-line-car > .card{
+    margin-left: 20rem;
+    margin-top: 1rem;
+} */
+
+
+/* card end */
 
 
 
@@ -255,15 +300,34 @@ form>select,
         gap: 20px;
         margin-top: 20px;
     }
-    .destenitain-img{
+
+    .destenitain-img {
         margin: 10px auto;
         padding: 10px;
     }
-  /*destenitation container end  */
+
+    /*destenitation container end  */
 
 
+/* card container  */
+
+.card-demo {
+    flex-direction: column;
+    margin-left:10px ;
+    justify-content: center;
+}
+.card p{
+    width: 19rem;
+}
 
 
+.farther{
+    
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    background-color: rgb(214, 159, 168);
+}
 
 
 
