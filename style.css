@@ -68,6 +68,41 @@ form >input ,form >select, .btn{
 /* banner styles End */
 
 
+/* populer container styles  */
+
+.populer{
+    width: 1150px;
+    height: 28rem;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container{
+    width: 60%;
+}
+.container h1{
+    font-size: 3.5rem;
+}
+.populer img{
+    width: 100%;
+    height: 100%;
+}
+.populer-first{
+    padding: 1.3rem 0;
+}
+.container ul {
+    padding-left:2.5rem;
+    padding:1rem,0;
+    font-size: 1rem;
+}
+.container ul li{
+    padding-bottom: 1rem;
+}
+.container button{
+    padding: 20px 30px;
+}
+
+/* populer container style end */
 
 
 
@@ -75,11 +110,11 @@ form >input ,form >select, .btn{
 
 
 
+/*  respondsive style for   small devices */
 
 
-
-/* small devices */
 @media screen and (max-width:576px) {
+    /* banner secton */
     .banner{
        width: 24rem;
        height:28rem ;
@@ -116,8 +151,29 @@ form >input ,form >select, .btn{
         /* padding: 10px; */
         padding-bottom: 1rem;
     }
+/* banner section end */
 
+/* populer section */
 
+.populer{
+    width:28rem;
+    height: auto;
+   flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.populer .img{
+    width: 100%;
+    padding-top: 10px;
+}
+.container{
+    width:100%;
+}
+.container h1{
+    font-size:1.2rem;
+    margin-top: 1ram;
+}
+    /* populer section end */
 
     
 }
