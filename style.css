@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Mulish;
 }
+
 /* banner styles start */
 .banner {
     width: 70rem;
@@ -41,19 +42,22 @@
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     margin-left: 185px;
-    width:47rem;
+    width: 47rem;
     padding: 16px;
     /* align-items: flex-start; */
     gap: 26px;
 }
 
 
-form >input ,form >select, .btn{
+form>input,
+form>select,
+.btn {
     width: 174px;
     height: 52px;
     flex-shrink: 0;
     /* display: flex; */
 }
+
 /* form >select */
 .btn {
     color: #FFF;
@@ -65,46 +69,85 @@ form >input ,form >select, .btn{
     font-size: 16px;
     font-weight: 700;
 }
+
 /* banner styles End */
 
 
 /* populer container styles  */
 
-.populer{
+.populer {
     width: 1150px;
     height: 28rem;
     display: flex;
     margin-top: 50px;
     margin-left: 50px;
 }
-.container{
+
+.container {
     width: 60%;
 }
-.container h1{
+
+.container h1 {
     font-size: 3.5rem;
 }
-.populer img{
+
+.populer img {
     width: 100%;
     height: 100%;
 }
-.populer-first{
+
+.populer-first {
     padding: 1.3rem 0;
 }
+
 .container ul {
-    padding-left:2.5rem;
-    padding:1rem,0;
+    padding-left: 2.5rem;
+    padding: 1rem, 0;
     font-size: 1rem;
 }
-.container ul li{
+
+.container ul li {
     padding-bottom: 1rem;
 }
-.container button{
+
+.container button {
     padding: 20px 30px;
 }
 
 /* populer container style end */
 
+/* destinetion  container start */
 
+.likha h1 {
+    color: black;
+    font-size: 2.5rem;
+    margin-left: 26rem;
+    margin-bottom: 1.2rem;
+}
+
+.likha p {
+    width: 40rem;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    margin-left: 22rem;
+}
+
+.destenitain-img {
+    max-width: 75rem;
+    margin-left: 50px;
+}
+
+
+.second,.third,.first {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* destenitation container end */
 
 
 
@@ -114,66 +157,115 @@ form >input ,form >select, .btn{
 
 
 @media screen and (max-width:576px) {
+
     /* banner secton */
-    .banner{
-       width: 24rem;
-       height:28rem ;
-       margin-left: 10px;
-       margin-top: 10px;
-       border-radius: 10px;
-       /* margin-left :8ram;; */
-    
+    .banner {
+        width: 24rem;
+        height: 28rem;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px;
+        /* margin-left :8ram;; */
+
     }
+
     .text h1 {
         color: #FFF;
-        font-size:22px;
+        font-size: 22px;
         margin-top: 10px;
         margin-left: 6rem;
-       
+
     }
+
     .text h5 {
-        margin-left:10px;
+        margin-left: 10px;
         margin-top: 20px;
         padding-bottom: 50px;
-        padding-right :20rem;
+        padding-right: 20rem;
         margin-right: 2rem;
     }
+
     .input {
-        width:13rem;
+        width: 13rem;
         border-radius: 8px;
-        margin-left:6rem;
+        margin-left: 6rem;
         padding: 16px;
         gap: 26px;
     }
-    form >input ,form >select, .btn{
+
+    form>input,
+    form>select,
+    .btn {
         display: flex;
         gap: 5px;
         /* padding: 10px; */
         padding-bottom: 1rem;
     }
-/* banner section end */
 
-/* populer section */
+    /* banner section end */
 
-.populer{
-    width:28rem;
-    height: auto;
-   flex-direction: column;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-.populer .img{
-    width: 100%;
-    padding-top: 10px;
-}
-.container{
-    width:100%;
-}
-.container h1{
-    font-size:1.2rem;
-    margin-top: 1ram;
-}
+    /* populer section */
+
+    .populer {
+        width: 28rem;
+        height: auto;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .populer .img {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .container h1 {
+        font-size: 1.2rem;
+        margin-top: 1ram;
+    }
+
     /* populer section end */
 
-    
+
+    /*destenitation container start  */
+
+
+    .likha h1 {
+        font-size: 1.4rem;
+        color: black;
+        margin-left: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .likha p {
+        width: 20rem;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        margin-left: 6rem;
+    }
+
+    .first,
+    .second,
+    .third {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .destenitain-img{
+        margin: 10px auto;
+        padding: 10px;
+    }
+  /*destenitation container end  */
+
+
+
+
+
+
+
+
 }
