@@ -193,7 +193,7 @@ form>select,
 
 .news {
     max-width: 1150px;
-    height:330px;
+    height: 330px;
     display: flex;
     gap: 20px;
     margin-left: 150px;
@@ -217,27 +217,97 @@ form>select,
     line-height: 26px;
     padding: 25px;
 }
-.forom{
+
+.forom {
     width: 393px;
     height: 52px;
     padding: 20px;
 }
-.forom > input{
-font-size: 20px;
-border-radius: 7px;
-padding: 10px;
-margin-bottom: 10px;
-background-color:rgba(19, 19, 24, 0.05); 
+
+.forom>input {
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(19, 19, 24, 0.05);
 }
-.forom > button{
-    width:285px;
-    color :#FFF;
-    height:50px ;
+
+.forom>button {
+    width: 285px;
+    color: #FFF;
+    height: 50px;
     background-color: #FF5400;
 }
+/*  trying  */
+
+/* 
+.news img{
+    z-index: 0;
+}
+
+.top-div {
+    background-color: #FF5400;
+    color: #fff;
+    width: 324px;
+    margin-left: 817px;
+    padding-bottom: 100px;
+
+    transform: rotate(-19.628deg);
+    z-index: 1;
+    height: 120px;
+} */
+
 
 /*  newsleetter section end */
 
+/* footwe sectin start */
+footer {
+    height: 240px;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.ligoarea {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.some-text p {
+    width: 48rem;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.icons {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.icons i {
+    height: 20px;
+    padding-top: 50px;
+    padding-right: 27px;
+    font-size: 30px;
+
+
+}
+
+.copy-wri {
+    background-color: rgba(19, 19, 24, 0.05);
+    /* align-items: center; */
+    height: 100px;
+    position: relative;
+
+
+}
+
+.copywrie {
+    position: absolute;
+    top: 11%;
+    left: 42%;
+    transform: translate(-50% 50%);
+}
 
 
 
@@ -373,36 +443,60 @@ background-color:rgba(19, 19, 24, 0.05);
         background-color: rgb(214, 159, 168);
     }
 
-/* newsletter sectiion */
+    /* newsletter sectiion */
 
-.news {
-    max-width: 1150px;
-    height: auto;
-   flex-direction: column;
-    gap: 20px;
-    margin-left: 10px;
+    .news {
+        max-width: 1150px;
+        height: auto;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 10px;
 
-}
-.news .img{
-    padding: 0px 10px;
-    
-}
-.area {
-    width:90%;
-    border-radius: 8px;
-    margin-top: 40px;
-    border: 1px solid pink;
-}
-.forom{
-    
-    height: 208px;
-}
-.forom > input{
-    font-size: 20px;
-    border-radius: 7px;}
+    }
+
+    .news .img {
+        padding: 0px 10px;
+
+    }
+
+    .area {
+        width: 90%;
+        border-radius: 8px;
+        margin-top: 40px;
+        border: 1px solid pink;
+    }
+
+    .forom {
+
+        height: 208px;
+    }
+
+    .forom>input {
+        font-size: 20px;
+        border-radius: 7px;
+    }
 
 
 
+    footer {
+        height: 280px;
+    }
 
+    /* copywrite area */
+
+    .copywrie {
+        top: 18%;
+        left: 27%;
+
+    }
+
+    .copy-wri hr {
+        margin-top: 0px;
+
+    }
+
+    .some-text p {
+        width: 20rem;
+    }
 
 }
