@@ -57,7 +57,15 @@ form>select,
     flex-shrink: 0;
     /* display: flex; */
 }
-
+/* .btn >img{
+    font-size: 20px;
+   height: 20px;
+    width: 25px;
+    padding-right: 5px;
+    padding-top: 5px;
+    color: #FFF;
+    align-items: center;
+} */
 /* form >select */
 .btn {
     color: #FFF;
@@ -320,8 +328,8 @@ footer {
     .banner {
         width: 24rem;
         height: 28rem;
-        margin-left: 10px;
-        margin-top: 10px;
+        margin-left:1rem;
+        margin-top:1rem;
         border-radius: 10px;
         /* margin-left :8ram;; */
 
@@ -356,8 +364,14 @@ footer {
     .btn {
         display: flex;
         gap: 5px;
+        margin-bottom: 5px;
         /* padding: 10px; */
         padding-bottom: 1rem;
+    }
+    .btn {
+        text-align: center;
+        justify-content: center;
+        padding-top: 0.5rem;
     }
 
     /* banner section end */
@@ -375,6 +389,7 @@ footer {
     .populer .img {
         width: 100%;
         padding-top: 10px;
+        margin-right: 10px;
     }
 
     .container {
@@ -403,7 +418,7 @@ footer {
         width: 20rem;
         color: rgba(19, 19, 24, 0.70);
         text-align: center;
-        margin-left: 6rem;
+        margin-left: 4rem;
     }
 
     .first,
@@ -431,12 +446,14 @@ footer {
     }
 
     .card p {
-        width: 19rem;
+        width: 21rem;
+    }
+    .another{
+        width: 22rem;
     }
 
-
-    .farther {
-
+    .farther  {
+        width: 22rem;
         border-radius: 10px;
         padding: 20px;
         margin-left: 10px;
@@ -470,7 +487,9 @@ footer {
 
         height: 208px;
     }
-
+ .imgr{
+        margin-right: 10px;
+    }
     .forom>input {
         font-size: 20px;
         border-radius: 7px;
